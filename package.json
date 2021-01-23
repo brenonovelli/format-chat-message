@@ -1,0 +1,33 @@
+{
+  "name": "format-chat-message",
+  "version": "0.0.2",
+  "description": "Formatando mensagem de chats assim como WhatsApp, Facebook e outros mensageiros que utilizam Markdown para esta finalidade.",
+  "keywords": [
+    "markdown",
+    "remark",
+    "whatsapp",
+    "facebook",
+    "messenger",
+    "plugin",
+    "extension"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": "https://github.com/brenonovelli/format-chat-message.git",
+  "author": "Breno Novelli <breno@breno.com.br>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "yarn build",
+    "type:check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  }
+}
