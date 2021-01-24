@@ -10,6 +10,10 @@ Integration with platforms like Botmaker.
 npm install --save format-chat-message
 ```
 
+### Example
+
+https://codesandbox.io/s/format-chat-message-m6x8u?file=/src/App.tsx
+
 ### Usage
 
 ````jsx

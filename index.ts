@@ -20,7 +20,7 @@ const formatterPhone = (match: string) =>
     match.match(/[-. <]$/)?.[0]
   }`;
 
-const regexWhatsAppStyles = /(?<!\w)([*~_]|```)([a-zA-Z0-9*_~].+?)\1(?!\w)/g;
+const regexWhatsAppStyles = /([*~_]|```)([a-zA-Z0-9*_~].+?)\1(?!\w)/g;
 const regexURL = /(?:(?:https|http):\/\/|\b(?:[a-z\d]+\.))[a-zA-Z0-9\-.]+\.[a-zA-Z]{2,3}(\/\S*)?/gim;
 const regexPhone = /(?:(?:\(?(\d{2,11})\))|(?:(\d{2,11})))?[-. ]?(\d{5}|\d{4})[-. ]?(\d{4})[-. <\s]/gm;
 
