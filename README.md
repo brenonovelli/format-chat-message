@@ -87,7 +87,7 @@ export default function App() {
 
 ## Default RegExp
 
-**Messengers syntax such as HTML tags**[View on regexr](https://regexr.com/5krri)  
+**Messengers syntax such as HTML tags** - [View on regexr](https://regexr.com/5krri)  
 ` /([*~_]|```)([a-zA-Z0-9*_~].+?)\1(?!\w)/g `
 
 **URL** - [View on regexr](https://regexr.com/5krrf)  
@@ -103,8 +103,11 @@ export default function App() {
 
 ## Custom props
 
-```jsx
+````jsx
 import { formatChatMessage } from "format-chat-message";
+
+const message =
+  "Olá, o item *cenoura orgânica 01 bandeja* está em falta*.\n\nIremos* realizar a troca por:\n*Cenoura Palito Processado* e também _italico_ e ~tachado~. https://market.com.br/simple/5b6f-11eb-952f-e51d98fc81fe e um trecho de código ```code is very beautiful```.\n\n\n_*Produtos em falta podem podem variar a cada turno._\n\n\nVocê pode falar conosco no www.nossosite.com ou no telefone 21123456454\n ou no 112232432343.";
 
 const customRegex = {
   breakline: RegExp, // optional
@@ -127,7 +130,7 @@ const formattedMessageWithOptions = formatChatMessage({
   customRegex,
   shouldFormat,
 });
-```
+````
 
 ---
 
