@@ -1,6 +1,6 @@
 {
   "name": "format-chat-message",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Formatando mensagem de chats assim como WhatsApp, Facebook e outros mensageiros que utilizam Markdown para esta finalidade.",
   "keywords": [
     "markdown",
