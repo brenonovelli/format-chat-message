@@ -1,6 +1,6 @@
 # Format Chat Message
 
-A lib to format messages received through APIs of the main messengers, such as WhatsApp and Facebook. Botmaker integration out of the box. Convert from messengers syntax to HTML tags.
+A lib to format messages received through APIs of the main messengers such as WhatsApp and Facebook. Convert from messengers syntax to HTML tags.
 
 Integration with platforms like Botmaker.
 
