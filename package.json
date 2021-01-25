@@ -1,7 +1,7 @@
 {
   "name": "format-chat-message",
-  "version": "0.0.4",
-  "description": "Formatando mensagem de chats assim como WhatsApp, Facebook e outros mensageiros que utilizam Markdown para esta finalidade.",
+  "version": "0.0.5",
+  "description": "A lib to format messages received through APIs of the main messengers such as WhatsApp and Facebook. Convert from messengers syntax to HTML tags.",
   "keywords": [
     "markdown",
     "remark",
